@@ -1,7 +1,11 @@
 [package]
 name = "ntcore-rs"
 version = "0.1.0"
+authors = ["Cody Wellman <cody.wellman@codexmicro.systems>"]
 edition = "2021"
+description = "A Rust implementation of the WPILib Network Tables specification."
+readme = "README.md"
+license = "MIT"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
